@@ -36,8 +36,10 @@ import About from './screens/About';
 import PrivacyPolicy from './screens/PrivacyPolicy';
 import SplashScreen from './components/SplashScreen';
 import DrawerNavigation from './screens/Drawer/DrawerNavigation';
+import Language from './screens/Language';
+import RegisterScreen from './screens/RegisterScreen';
 const Stack = createNativeStackNavigator();
-
+import GhostScreen from './screens/GhostScreen ';
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(false);
 
@@ -73,8 +75,35 @@ const App = () => {
                 backgroundColor: '#FFFFFF',
               },
             }}
+            name="Language"
+            component={Language}
+          />
+          <Stack.Screen
+            screenOptions={{
+              contentStyle: {
+                backgroundColor: '#FFFFFF',
+              },
+            }}
+            name="RegisterScreen"
+            component={RegisterScreen}
+          />
+          <Stack.Screen
+            screenOptions={{
+              contentStyle: {
+                backgroundColor: '#FFFFFF',
+              },
+            }}
             name="Dashboard"
             component={Dashboard}
+          />
+          <Stack.Screen
+            screenOptions={{
+              contentStyle: {
+                backgroundColor: '#FFFFFF',
+              },
+            }}
+            name="GhostScreen"
+            component={GhostScreen}
           />
           <Stack.Screen
             screenOptions={{

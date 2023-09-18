@@ -200,7 +200,7 @@ const BarChart = () => {
 const styles = StyleSheet.create({
   chartContainer: {
     alignItems: 'flex-end',
-    height: '100%',
+    // height: '100%',
     paddingBottom: scrollViewPaddingBottom,
   },
   bar: {

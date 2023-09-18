@@ -10,6 +10,13 @@ module.exports = {
     extend: {
       colors: {
         primary: '#FFCC00',
+        languageBarSelected: '#424242',
+        languageBarNotSelected: '#E7E7E7',
+        languageBtnNotSelected: '#CACACA',
+        languageBtnBorder: 'rgba(3, 24, 13, 0.32)',
+        languageHeadingText: 'rgba(3, 24, 13, 0.88)',
+        languageBtnText: 'rgba(3, 24, 13, 0.80)',
+        body: '#ccc',
       },
     },
     plugins: [],

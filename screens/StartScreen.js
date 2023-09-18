@@ -49,7 +49,7 @@ export default function StartScreen({navigation}) {
             </Text>
             <Text> & Managment</Text>
           </View>
-          <TouchableOpacity onPress={() => navigation.navigate('Dashboard')}>
+          <TouchableOpacity onPress={() => navigation.navigate('Language')}>
             <View className="bg-white px-20 py-4 mb-8">
               <Text className="font-bold text-base rounded-md">
                 Get Started
